@@ -11,7 +11,7 @@ require_once( __DIR__.'/server/api/User.php');
   <meta charset="utf-8">
   <title>身份认证</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="img/icon/verification.ico" />
+  <link rel="icon" type="image/x-icon" href="img/verification.ico" />
 </head>
 
 <body>

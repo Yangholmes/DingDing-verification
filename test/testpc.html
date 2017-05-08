@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>测试页面</title>
+  </head>
+  <body>
+    <h1>跳转测试中</h1>
+    <script>
+      var thisUser = localStorage.getItem('thisUser');
+      if( !thisUser ){
+      	window.location.href = 'http://www.gdrtc.org/dd-verification/indexpc.php';
+      }
+      else{
+        console.log(localStorage);
+        document.getElementsByTagName('h1')[0].innerHTML = "您是" + JSON.parse(thisUser).name;
+      }
+    </script>
+  </body>
+</html>
