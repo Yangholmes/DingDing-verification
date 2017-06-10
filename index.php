@@ -24,7 +24,7 @@ require_once( __DIR__.'/server/api/User.php');
         $auth = new Auth(1);  // debug: 1表示pc端；0表示移动端。请注意修改config文件
         echo json_encode($auth->get_signature());
       ?>;
-    localStorage.setItem('thisUser', 'error');
+    // localStorage.setItem('thisUser', 'error');
   </script>
 
   <script src="http://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>

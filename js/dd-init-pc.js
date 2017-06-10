@@ -57,6 +57,7 @@ DingTalkPC.ready(function() {
                 success: function(respond) {
                     $('p.notification').html('验证成功！going back~');
                     _user = respond; //
+                    console.log(_user);
                     localStorage.setItem('thisUser', JSON.stringify(_user));
                     window.history.back(); return false; // Safari要求 return false 方可回退
                 },
